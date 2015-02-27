@@ -29,7 +29,10 @@ First, we will look at simple lists where items are indexed by their numeric pos
 
 ## Task 1
 
-Open [task-01.py](open_file "01-implementing/task-01.py") and run it.
+Open [task-01.py](open_file "01-implementing/task-01.py") 
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```bash
@@ -41,7 +44,10 @@ Jack is going
 
 Next, implement this program that shows two ways of adding to a list. Append adds an item to the last position (first empty). Appending a list to a list, creates a nested list – Python's answer to traditional arrays. Extend also adds items to the end of the list but if the item being added is also a list, it will "flatten" it – extract all of its elements and add them automatically.
 
-Open [task-02.py](open_file "01-implementing/task-02.py") and run it.
+Open [task-02.py](open_file "01-implementing/task-02.py").
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -127,7 +133,10 @@ Comparing lists:
 
 Python is able to evaluate if a statement is true or false. For example, `5 > 3` will return `True`, and `4 == (2 * 2)` will also return `True`, while `3 * 3 == 3 ** 3` will return `False` (`3 ** 3` means `3` to the power of `3`).
 
-Open [task-02.py](open_file "02-list-operations/task-02.py") and run it.
+Open [task-02.py](open_file "02-list-operations/task-02.py")
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -137,7 +146,10 @@ False
 ## Task 3
 
 
-Open [task-03.py](open_file "02-list-operations/task-03.py") and run it.
+Open [task-03.py](open_file "02-list-operations/task-03.py").
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -154,7 +166,10 @@ Bobdelimiter Pameladelimiter Amir
 
 Performing calculations on list items en masse:
 
-Open [task-04.py](open_file "02-list-operations/task-04.py"), run it and supply comments where needed.
+Open [task-04.py](open_file "02-list-operations/task-04.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -173,7 +188,10 @@ It should output
 
 ## Task 5
 
-Open [task-05.py](open_file "02-list-operations/task-05.py"), run it and supply comments where needed.
+Open [task-05.py](open_file "02-list-operations/task-05.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -184,7 +202,10 @@ All list items must be strings to join
 
 To make "join" work on the list items, we need to individual convert them to strings. Our knowledge of list comprehension (running one-line loops through lists) will come in handy.
 
-Open [task-06.py](open_file "02-list-operations/task-06.py"), run it and supply comments where needed.
+Open [task-06.py](open_file "02-list-operations/task-06.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -204,7 +225,10 @@ step: 03-searching
 
 Python allows to sort lists using the built-in sorted function. Note, that the original list is not affected, we get a sorted copy of the original list and that is what being printed. This is similar to an SQL select query that brings us a copy of a table without modifying its data.
 
-Open [task-01.py](open_file "03-searching/task-01.py"), run it and supply comments where needed.
+Open [task-01.py](open_file "03-searching/task-01.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -218,7 +242,10 @@ It should output
 
 We often need to append to lists by asking a user to supply the new values. This program will accomplish just that.
 
-Open [task-02.py](open_file "03-searching/task-02.py"), run it and supply comments where needed.
+Open [task-02.py](open_file "03-searching/task-02.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -237,7 +264,10 @@ Once we have a good list, we can manipulate it. Here we will randomly pick winne
 
 This is handy for the games of chance and any game AI.
 
-Open [task-04.py](open_file "03-searching/task-04.py") and run it.
+Open [task-04.py](open_file "03-searching/task-04.py").
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -257,7 +287,10 @@ step: 04-nested-lists
 
 ## Task 1
 
-Open [task-01.py](open_file "04-nested-lists/task-01.py") and run it.
+Open [task-01.py](open_file "04-nested-lists/task-01.py")/
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -315,7 +348,10 @@ The ability to filter lists is very important. Consider a program that is creati
 
 The following code will take the just-in-time created list of number 0-9 and filter it to only those over 5 using an appropriately called function:
 
-Open [task-01.py](open_file "05-filters/task-01.py"), run it and supply comments where needed.
+Open [task-01.py](open_file "05-filters/task-01.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -453,7 +489,10 @@ Let's explore the features of dictionaries:
 
 We can extract parts of the dictionary. `Dictionary.items()` will return all pairs stored in the dictionary. `Dictionary.keys()` will return the first column, while `Dictionary.values()` will return the second column.
 
-Open [task-01a.py](open_file "06-nested-lists/task-01a.py") and run it.
+Open [task-01a.py](open_file "06-nested-lists/task-01a.py").
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -500,7 +539,10 @@ moo
 
 ## Task 1b
 
-Open [task-01b.py](open_file "06-nested-lists/task-01b.py") and run it.
+Open [task-01b.py](open_file "06-nested-lists/task-01b.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -514,7 +556,10 @@ want tu-tu
 
 ## Task 1c
 
-Open [task-01c.py](open_file "06-nested-lists/task-01c.py") and run it.
+Open [task-01c.py](open_file "06-nested-lists/task-01c.py").
+
+Run the program by pressing the 'Run File' button in the top menu.
+
 It should output
 
 ```
@@ -528,7 +573,10 @@ M e t u - t u m i l k !
 
 Another dictionary exercise to explore different parts of a dictionary – keys and values separately.
 
-Open [task-02.py](open_file "06-nested-lists/task-02.py") and run it.
+Open [task-02.py](open_file "06-nested-lists/task-02.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -555,7 +603,10 @@ A record is a list. A database is a list of records, therefore, it is a list of 
 
 ## Task 1
 
-Open [task-01.py](open_file "07-records/task-01.py") and run it.
+Open [task-01.py](open_file "07-records/task-01.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -599,7 +650,10 @@ step: 08-files
 Spreadsheets are very important tools in today's office. They are two dimensional lists (sometimes, three dimensional if you count the ability to link cells of different sheets in a workbook. Flat file databases that you learn in the database section of the syllabus are also spreadsheets. While there are different packages that can show and allow editing of a spreadsheets, there is one common format that is used to exchange data between different spreadsheet packages. It is called CSV for "comma separated values". Below, you see a screenshot of one such a file. On each row, columns are separated by commas (hence, comma-separated), while the new line character separates the rows. This skills is building on GCSE list handling, as some of the tasks come with data stored in the CSV form.
 
 
-First, in your spreadsheet package of choice, input the data shown in a screenshot above and call it Book1.csv. You can then open it in a Notepad or similar text editor to confirm that commas have been inserted. Then open [task-01.py](open_file "08-files/task-01.py") and run it.
+First, in your spreadsheet package of choice, input the data shown in a screenshot above and call it Book1.csv. You can then open it in a Notepad or similar text editor to confirm that commas have been inserted. Then open [task-01.py](open_file "08-files/task-01.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -625,7 +679,10 @@ To go beyond GCSE, we need to learn how to work with multiple files at once. Rel
 
 This is a horoscope program. It uses global lists, functions and subs, imperative structure with main(), error trapping with try/else, as well as reading from two CSV files and writing to a text file - reading data into respective lists from serial files and writing the predictions to the third serial file:
 
-Open [task-02.py](open_file "08-files/task-02.py") and run it.
+Open [task-02.py](open_file "08-files/task-02.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -650,7 +707,10 @@ Implement a program that can read a CSV file that looks like the screenshot abov
 
 This program will save a dictionary to a txt file. If we change the file extension to ".csv" from ".txt", we can open this file with a spreadsheet program. Notice, how for convenience, we used Python's ability to run other programs and open files in them – we are launching Notepad with the file we created to save us searching for it.
 
-Open [task-04.py](open_file "08-files/task-04.py") and run it.
+Open [task-04.py](open_file "08-files/task-04.py").
+
+Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
+
 It should output
 
 ```
@@ -692,7 +752,14 @@ It is not very efficient with memory, so for industrial-strength applications, P
 
 ## Task 1a
 
-Imagine a screen in a store that shows a currently served customer service ticket on a big screen, as customers tear off a number ticket off a roll at the entrance. A store clerk has an access to a computer where a program allows him/her to enter tickets as they are taken by customers. Tickets registered are entered into the first-come first-served queue. The same clerk then keeps track of the tickets served and removes the processed tickets from the queue. The program has a menu with 3 options: (1) add a ticket; (2) serve a ticket; (3) quit. Implement this program.
+Imagine a screen in a store that shows a currently served customer service ticket on a big screen, as customers tear off a number ticket off a roll at the entrance. A store clerk has an access to a computer where a program allows him/her to enter tickets as they are taken by customers. Tickets registered are entered into the first-come first-served queue. The same clerk then keeps track of the tickets served and removes the processed tickets from the queue. 
+
+The program has a menu with 3 options: 
+-  add a ticket; 
+-  serve a ticket; 
+-  quit. 
+
+Implement this program.
 
 ## Solution
 
