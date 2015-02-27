@@ -3,7 +3,7 @@ title: "Arrays, Queues and Stacks"
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: 3-cell-tree
 
 ---
 Arrays, queues and stacks are the three most popular data structures in computer science. All of them store items of a similar nature to be processed in a similar way. These data structures lend themselves well to iteration (looping) and automation, as well as restricting input and output values, which assists validation.
@@ -21,7 +21,7 @@ title: Implementing arrays
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 01-implementing
 
 ---
@@ -98,7 +98,7 @@ title: More useful list operations
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 02-list-operations
 
 ---
@@ -196,7 +196,7 @@ title: "Searching and sorting is built in!"
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 03-searching
 
 ---
@@ -249,7 +249,7 @@ title: Nested lists
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 04-nested-lists
 
 ---
@@ -305,7 +305,7 @@ title: Applying filters to lists
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 05-filters
 
 ---
@@ -425,11 +425,11 @@ Mapping can be quite powerful when you have a long list of items and you need to
 It is, of course, possible to do this with a loop, but Python here provides are more efficient and easier to read way of accomplishing the same thing.
 
 ---
-title: Dictonaries (Associative arrays)
+title: Dictionaries (Associative arrays)
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 06-dictionaries
 
 ---
@@ -545,7 +545,7 @@ title: Records
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 07-records
 
 ---
@@ -590,7 +590,7 @@ title: File reading and writing
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 08-files
 
 ---
@@ -670,7 +670,7 @@ title: Implementing queues
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 09-queues
 
 ---
@@ -744,7 +744,7 @@ title: Implementing stacks
 files:
   - action: close
     path: "#tabs"
-layout: 2-panels-tree
+layout: ""
 step: 10-stacks
 
 ---
