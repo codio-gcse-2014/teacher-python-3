@@ -1,5 +1,5 @@
 twoDeeList = []
-fread = open("Book1.csv","rt")
+fread = open(".guides/Book1.csv","rt")
 tempRow = []
 
 for line in fread:

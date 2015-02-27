@@ -20,7 +20,7 @@ records = {
 index_list = list(records.keys())
 
 # open a file in a write mode
-f = open("csv.txt","wt")
+f = open("08-files/csv.txt","wt")
 
 for r in index_list:
     # add commas to separate values, iterate through keys
@@ -40,7 +40,7 @@ f.write("\n")
 # files open for writing must be explicitly closed to commit the changes.
 f.close()
 
-import os
+#import os
 
 # this will launch Notepad with our file (this only works on Windows)
-os.system('notepad.exe ' + "csv.txt")
+#os.system('notepad.exe ' + "csv.txt")

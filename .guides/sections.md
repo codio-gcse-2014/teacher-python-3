@@ -78,6 +78,8 @@ Let's compare the list contents before and after these two run:
 
 ```
 [10, 11, 45, [33, 44], 33, 44]
+```
+```
 [45, [33, 44], 33, 44]
 ```
 
@@ -200,7 +202,7 @@ All list items must be strings to join
 
 ## Task 6
 
-To make "join" work on the list items, we need to individual convert them to strings. Our knowledge of list comprehension (running one-line loops through lists) will come in handy.
+To make "join" work on the list items, we need to individually convert them to strings. Our knowledge of list comprehension (running one-line loops through lists) will come in handy.
 
 Open [task-06.py](open_file "02-list-operations/task-06.py").
 
@@ -260,7 +262,11 @@ Type <Enter> to add another, or type 'quit' to exit >> quit
 
 ## Task 3
 
-Once we have a good list, we can manipulate it. Here we will randomly pick winners off a list of names. We will create a function that generates a random number within the dimensions of our list, then it will remove (pop) an item stored at an index equal to the random number generated, e.g. if the random number was 2, then Amir will be removed. However, the "pop" function in Python has a second functionality. As it is removing an item it can copy it top somewhere – in this case, it will be passed out of a function.
+Once we have a good list, we can manipulate it. Here we will randomly pick winners off a list of names. 
+
+We will create a function that generates a random number within the dimensions of our list, then it will remove (pop) an item stored at an index equal to the random number generated, e.g. if the random number was 2, then Amir will be removed. 
+
+However, the "pop" function in Python has a second functionality. As it is removing an item it can copy it to somewhere – in this case, it will be passed out of a function.
 
 This is handy for the games of chance and any game AI.
 
@@ -283,11 +289,12 @@ layout: ""
 step: 04-nested-lists
 
 ---
-> **Reminder:** nested lists are multi-dimensional arrays where each element can be accessed by multi-index, e.g. `x[r][c]` will give us an element of the two dimensional list at certain row and column.
+> **Reminder:** nested lists are multi-dimensional arrays where each element can be accessed by multi-index, 
+>e.g. `x[r][c]` will give us an element of the two dimensional list at certain row and column.
 
 ## Task 1
 
-Open [task-01.py](open_file "04-nested-lists/task-01.py")/
+Open [task-01.py](open_file "04-nested-lists/task-01.py")
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -300,7 +307,7 @@ It should output
 
 ## Task 2
 
-Zipping lists creates nested lists where each row is made up of first list's first item as column 0, and the second list's first item as column 1.
+Zipping lists creates nested lists where each row is made up of the first list's first item as column 0, and the second list's first item as column 1.
 
 | John | Eric | Monty | | Cleese | Idle | Pyton |
 
@@ -331,7 +338,9 @@ Eric Idle
 
 You can see we merged one-dimensional lists into a 2 dimensional array. We were able to access two elements of this array and print them out as one string.
 
-Extension activity: Create 2 lists of 5 major geographic discoveries, where the first list will contain the dates, e.g. 1805, and the second list will contain the description, e.g. The Battle of Trafalgar. Write a program that will "zip" these lists into one 5 element list each element of which contains the date and the description, e.g. 1805 The Battle of Trafalgar.
+**Extension activity:** Create 2 lists of 5 major geographic discoveries, where the first list will contain the dates, e.g. 1805, and the second list will contain the description, e.g. The Battle of Trafalgar. 
+
+Write a program that will "zip" these lists into one 5 element list each element of which contains the date and the description, e.g. 1805 The Battle of Trafalgar.
 
 ---
 title: Applying filters to lists
@@ -456,7 +465,9 @@ filt_li = [doubler(x) for x in li]
 
 The output should be exactly same.
 
-Mapping can be quite powerful when you have a long list of items and you need to apply some sort of a transformation to each item (or perhaps, only to the items that match a criteria). For example, consider a store that buys items off a wholesaler, adds 30% margin to the cost and then prints out the price tags. In a list of: broccoli, £1.00; milk £1.20; bananas £0.60, we would like to multiply all quantities by 1.3.
+Mapping can be quite powerful when you have a long list of items and you need to apply some sort of a transformation to each item (or perhaps, only to the items that match a criteria). 
+
+For example, consider a store that buys items off a wholesaler, adds 30% margin to the cost and then prints out the price tags. In a list of: broccoli, £1.00; milk £1.20; bananas £0.60, we would like to multiply all quantities by 1.3.
 
 It is, of course, possible to do this with a loop, but Python here provides are more efficient and easier to read way of accomplishing the same thing.
 
@@ -469,7 +480,13 @@ layout: ""
 step: 06-dictionaries
 
 ---
-Created using curly braces rather than square brackets that we use for regular lists. There is no numeric indexing, just associations. Dictionaries are special lists of pairs that are great for lookups, e.g. English word for a French word, page number and the topic on that page. We can say, that a dictionary is like a 2-column list, where the first column must be unique (just like primary key in database entities) and is called … a key. The second column is called a value. Dictionaries don't use indices, so you can't say `dictionary[2]`, instead, to get a particular value, we look it up by its associated key, e.g. `dictionary["1805"]` will possibly return "The Battle of Trafalgar". They are often used in encryption/decryption, as each letter of a text needs to be replaced by its encrypted/decrypted value.
+Created using curly braces rather than square brackets we use for regular lists. 
+
+There is no numeric indexing, just associations. 
+
+Dictionaries are special lists of pairs that are great for lookups, e.g. English word for a French word, page number and the topic on that page. 
+
+We can say, that a dictionary is like a 2-column list, where the first column must be unique (just like primary key in database entities) and is called … a key. The second column is called a value. Dictionaries don't use indices, so you can't say `dictionary[2]`, instead, to get a particular value, we look it up by its associated key, e.g. `dictionary["1805"]` will possibly return "The Battle of Trafalgar". They are often used in encryption/decryption, as each letter of a text needs to be replaced by its encrypted/decrypted value.
 
 It is fairly easy to see why they are called dictionaries.
 
@@ -489,7 +506,7 @@ Let's explore the features of dictionaries:
 
 We can extract parts of the dictionary. `Dictionary.items()` will return all pairs stored in the dictionary. `Dictionary.keys()` will return the first column, while `Dictionary.values()` will return the second column.
 
-Open [task-01a.py](open_file "06-nested-lists/task-01a.py").
+Open [task-01a.py](open_file "06-dictionaries/task-01a.py").
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -539,24 +556,25 @@ moo
 
 ## Task 1b
 
-Open [task-01b.py](open_file "06-nested-lists/task-01b.py").
+Open [task-01b.py](open_file "06-dictionaries/task-01b.py").
 
 Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
 
 It should output
 
 ```
-('I', 'Me')
-('milk', 'moo')
 ('want', 'tu-tu')
-I Me
-milk moo
+('milk', 'moo')
+('I', 'Me')
 want tu-tu
+milk moo
+I Me
+
 ```
 
 ## Task 1c
 
-Open [task-01c.py](open_file "06-nested-lists/task-01c.py").
+Open [task-01c.py](open_file "06-dictionaries/task-01c.py").
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -566,26 +584,26 @@ It should output
 I
 want
 milk!
-M e t u - t u m i l k !
+M e  t u - t u  m i l k !
 ```
 
 ## Task 2
 
 Another dictionary exercise to explore different parts of a dictionary – keys and values separately.
 
-Open [task-02.py](open_file "06-nested-lists/task-02.py").
+Open [task-02.py](open_file "06-dictionaries/task-02.py").
 
 Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
 
 It should output
 
 ```
-{'Spiderman': 'superhero', 'Mike': 'brother-in-law', 'Bob': 'plumber'}
-dict_items([('Spiderman', 'superhero'), ('Mike', 'brother-in-law'), ('Bob', 'plumber')])
+{'Mike': 'brother-in-law', 'Spiderman': 'superhero', 'Bob': 'plumber'}
+dict_items([('Mike', 'brother-in-law'), ('Spiderman', 'superhero'), ('Bob', 'plumber')])
 brother-in-law
 Bob is my plumber
-dict_keys(['Spiderman', 'Mike', 'Bob'])
-dict_values(['superhero', 'brother-in-law', 'plumber'])
+dict_keys(['Mike', 'Spiderman', 'Bob'])
+dict_values(['brother-in-law','superhero','plumber'])
 ```
 
 ---
@@ -597,7 +615,7 @@ layout: ""
 step: 07-records
 
 ---
-Records and multidimensional arrays via nested lists in Python.
+# Records and multidimensional arrays via nested lists in Python.
 
 A record is a list. A database is a list of records, therefore, it is a list of lists – a nested list. In Python, this is very efficient.
 
@@ -647,7 +665,13 @@ step: 08-files
 ---
 ## Task 1
 
-Spreadsheets are very important tools in today's office. They are two dimensional lists (sometimes, three dimensional if you count the ability to link cells of different sheets in a workbook. Flat file databases that you learn in the database section of the syllabus are also spreadsheets. While there are different packages that can show and allow editing of a spreadsheets, there is one common format that is used to exchange data between different spreadsheet packages. It is called CSV for "comma separated values". Below, you see a screenshot of one such a file. On each row, columns are separated by commas (hence, comma-separated), while the new line character separates the rows. This skills is building on GCSE list handling, as some of the tasks come with data stored in the CSV form.
+Spreadsheets are very important tools in today's office. They are two dimensional lists (sometimes, three dimensional if you count the ability to link cells of different sheets in a workbook. 
+
+Flat file databases that you learn in the database section of the syllabus are also spreadsheets. While there are different packages that can show and allow editing of a spreadsheets, there is one common format that is used to exchange data between different spreadsheet packages. It is called CSV for "comma separated values". 
+
+Below, you see a screenshot of one such a file. On each row, columns are separated by commas (hence, comma-separated), while the new line character separates the rows. This skills is building on GCSE list handling, as some of the tasks come with data stored in the CSV form.
+
+![CSV File](.guides/img/csv.png)
 
 
 First, in your spreadsheet package of choice, input the data shown in a screenshot above and call it Book1.csv. You can then open it in a Notepad or similar text editor to confirm that commas have been inserted. Then open [task-01.py](open_file "08-files/task-01.py").
@@ -659,9 +683,6 @@ It should output
 ```
 Bobby,12 Cobblestone,12/12/2001
 Toby,April Cottage,12/02/2001
-,,
-,,
-,,
 List in raw form
 [['Bobby', '12 Cobblestone', '12/12/2001'], ['Toby', 'April Cottage', '12/02/2001']]
 List in nicer form
@@ -675,7 +696,9 @@ Extension: implement the solution above without removing the two right-most char
 
 ## Task 2
 
-To go beyond GCSE, we need to learn how to work with multiple files at once. Relational databases are an expectation at A level, which means that a program needs to read multiple CSV files (this skill is later transferrable to SQL, which is also required at A level). The program also needs to combine (join) data from different tables matching by their relationships between primary and foreign keys.
+To go beyond GCSE, we need to learn how to work with multiple files at once. 
+
+Relational databases are an expectation at A level, which means that a program needs to read multiple CSV files (this skill is later transferrable to SQL, which is also required at A level). The program also needs to combine (join) data from different tables matching by their relationships between primary and foreign keys.
 
 This is a horoscope program. It uses global lists, functions and subs, imperative structure with main(), error trapping with try/else, as well as reading from two CSV files and writing to a text file - reading data into respective lists from serial files and writing the predictions to the third serial file:
 
@@ -700,8 +723,8 @@ Peace, out!
 ## Task 3
 
 Writing a dictionary to a flat file database in a csv file.
-
-Implement a program that can read a CSV file that looks like the screenshot above (you can create it either in Notepad or a spreadsheet package).
+![CSV Example](.guides/img/csv1.png)
+Implement a program that can read a CSV file that looks like the screenshot above (Create a new file in your 08-files directory named `csv.csv` - right click the folder and select 'New File').
 
 ## Task 4
 
@@ -742,7 +765,7 @@ The general syntax is:
 my_list[beg:end]
 ```
 
-Since Python lists start from zero, we can have get all items but the first like so:
+Since Python lists start from zero, we can get all items but the first like so:
 
 ```python
 my_list[1:]
@@ -817,7 +840,17 @@ step: 10-stacks
 ---
 ## Task 1
 
-A speleologist relies on a Python program installed on his handheld device to keep track of all the special features, e.g. "sharp drop", etc. Write a program that will allow the user, as he goes through the cave, to store a list of features or notes to self in reverse chronological order. E.g. "sharp drop", "low ceiling", "3 stalagmites","long walk", "cave entrance". Then as he goes back and comes across the feature, he can delete it off the list to avoid confusion.
+A speleologist relies on a Python program installed on his handheld device to keep track of all the special features, e.g. "sharp drop", etc. 
+
+Write a program that will allow the user, as he goes through the cave, to store a list of features or notes to self in reverse chronological order. 
+E.g. 
+- "sharp drop", 
+- "low ceiling", 
+- "3 stalagmites",
+- "long walk",
+- "cave entrance". 
+
+Then as he goes back and comes across the feature, he can delete it off the list to avoid confusion.
 
 ## Solution
 
