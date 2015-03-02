@@ -1,3 +1,6 @@
+# Task 5
+# Press the 'Run File' menu button to execute
+# 
 # this will not work for numeric items, as the Python join
 # function only works on strings.
 

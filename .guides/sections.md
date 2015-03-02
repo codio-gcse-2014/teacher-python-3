@@ -270,7 +270,7 @@ However, the "pop" function in Python has a second functionality. As it is remov
 
 This is handy for the games of chance and any game AI.
 
-Open [task-04.py](open_file "03-searching/task-04.py").
+Open [task-03.py](open_file "03-searching/task-03.py").
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -353,7 +353,7 @@ step: 05-filters
 ---
 The ability to filter lists is very important. Consider a program that is creating a prefect rota. From the list of potential prefects, the program will have to exclude all who are already engaged at a particular time slot, leaving the list of possible candidates.
 
-## Task 1a
+## Task 1
 
 The following code will take the just-in-time created list of number 0-9 and filter it to only those over 5 using an appropriately called function:
 
@@ -367,7 +367,7 @@ It should output
 [6, 7, 8, 9]
 ```
 
-## Task 1b
+## Task 2
 
 There is more than one way to filter lists and different people end up preferring different types. Replace the line
 
@@ -384,7 +384,7 @@ filt_li = list(filter(over_five,li))
 We are now making use of the built-in Python function to filter lists. However, this function is being depreciated (its use is discouraged), so make sure you know the other methods, as well.
 
 
-## Task 1c
+## Task 3
 
 Now replace the line with this:
 
@@ -401,7 +401,7 @@ Read what Python's inventor has to say about this:
 
 There is another commonly used list function called `map`. It runs a specified function on every list item.
 
-## Task 1d
+## Task 4
 
 
 Replace the line
@@ -425,7 +425,7 @@ What did the mapping do?
 
 It replaced the list item with the value of the function in which that list item was an input.
 
-## Task 1e
+## Task 5
 
 It is not very useful with our `over_five` function, but consider this code:
 
@@ -448,7 +448,7 @@ Which would output,
 
 It doubled all the values, sending every item through the function where it got transformed.
 
-## Task 1f
+## Task 6
 
 
 You would get exactly same result by using list comprehension, replace the line
@@ -490,7 +490,7 @@ We can say, that a dictionary is like a 2-column list, where the first column mu
 
 It is fairly easy to see why they are called dictionaries.
 
-## Task 1a
+## Task 1
 
 Here is a dictionary to an imaginary language:
 
@@ -506,7 +506,7 @@ Let's explore the features of dictionaries:
 
 We can extract parts of the dictionary. `Dictionary.items()` will return all pairs stored in the dictionary. `Dictionary.keys()` will return the first column, while `Dictionary.values()` will return the second column.
 
-Open [task-01a.py](open_file "06-dictionaries/task-01a.py").
+Open [task-01.py](open_file "06-dictionaries/task-01.py").
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -554,9 +554,9 @@ moo
 >>>
 ```
 
-## Task 1b
+## Task 2
 
-Open [task-01b.py](open_file "06-dictionaries/task-01b.py").
+Open [task-02.py](open_file "06-dictionaries/task-02.py").
 
 Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
 
@@ -572,9 +572,9 @@ I Me
 
 ```
 
-## Task 1c
+## Task 3
 
-Open [task-01c.py](open_file "06-dictionaries/task-01c.py").
+Open [task-03.py](open_file "06-dictionaries/task-03.py").
 
 Run the program by pressing the 'Run File' button in the top menu.
 
@@ -587,11 +587,11 @@ milk!
 M e  t u - t u  m i l k !
 ```
 
-## Task 2
+## Task 4
 
 Another dictionary exercise to explore different parts of a dictionary – keys and values separately.
 
-Open [task-02.py](open_file "06-dictionaries/task-02.py").
+Open [task-04.py](open_file "06-dictionaries/task-04.py").
 
 Run the program by pressing the 'Run File' button in the top menu, and supply comments where needed.
 
@@ -724,6 +724,9 @@ Peace, out!
 
 Writing a dictionary to a flat file database in a csv file.
 ![CSV Example](.guides/img/csv1.png)
+
+Open [task-03.py](open_file "08-files/task-03.py").
+
 Implement a program that can read a CSV file that looks like the screenshot above (Create a new file in your 08-files directory named `csv.csv` - right click the folder and select 'New File').
 
 ## Task 4
@@ -773,7 +776,7 @@ my_list[1:]
 
 It is not very efficient with memory, so for industrial-strength applications, Python comes with a special Queue module that you can import and it will give you access to memory efficient features of Queues and Stacks. ( [http://docs.python.org/3.3/library/queue.html](http://docs.python.org/3.3/library/queue.html))
 
-## Task 1a
+## Task 1
 
 Imagine a screen in a store that shows a currently served customer service ticket on a big screen, as customers tear off a number ticket off a roll at the entrance. A store clerk has an access to a computer where a program allows him/her to enter tickets as they are taken by customers. Tickets registered are entered into the first-come first-served queue. The same clerk then keeps track of the tickets served and removes the processed tickets from the queue. 
 
@@ -781,6 +784,8 @@ The program has a menu with 3 options:
 -  add a ticket; 
 -  serve a ticket; 
 -  quit. 
+
+Open [play.py](open_file "09-queues/play.py").
 
 Implement this program.
 
@@ -821,11 +826,11 @@ No tickets in queue
 >>>
 ```
 
-## Task 1b
+## Task 2
 
 Modify this program, so a few sequentially numbered tickets are loaded into the queue automatically, rather having to enter them manually.
 
-## Task 1c
+## Task 3
 
 Adapt this program to accept a list of directions to a place, like on a SatNav and when the user presses `<Enter>` the directions will be stricken off the list, until all have been popped. The program will then display a message "You arrived at your destination".
 
@@ -851,6 +856,10 @@ E.g.
 - "cave entrance". 
 
 Then as he goes back and comes across the feature, he can delete it off the list to avoid confusion.
+
+Open [play.py](open_file "10-stacks/play.py").
+
+Implement this program.
 
 ## Solution
 

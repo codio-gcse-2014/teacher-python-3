@@ -1,3 +1,6 @@
+# Task 1
+# Press the 'Run File' menu button to execute
+# 
 li = list(range(0,10))
 
 def over_five(lx):

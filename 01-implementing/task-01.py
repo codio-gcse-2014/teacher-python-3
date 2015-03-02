@@ -1,3 +1,6 @@
+# Task 1
+# Press the 'Run File' menu button to execute
+# 
 # set up a list
 a = ["Bob","Jack","Sonya"]
 

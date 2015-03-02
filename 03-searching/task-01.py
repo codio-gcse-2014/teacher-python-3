@@ -1,3 +1,7 @@
+# Task 1
+# Press the 'Run File' menu button to execute
+# 
+
 li = ["Bob","Pamela","Amir"]
 
 print(li.index("Pamela"))

@@ -1,3 +1,6 @@
+# Task 2
+# Press the 'Run File' menu button to execute
+# 
 Contestants = ["Jill","Adam","Amir","Norah"]
 
 def add_new():

@@ -1,4 +1,6 @@
-
+# Task 1
+# Press the 'Run File' menu button to execute
+# 
 # create a record structure with fields
 class Record():
     who=""

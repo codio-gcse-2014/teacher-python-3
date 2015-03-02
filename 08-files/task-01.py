@@ -1,3 +1,6 @@
+# Task 1
+# Press the 'Run File' menu button to execute
+# 
 twoDeeList = []
 fread = open(".guides/Book1.csv","rt")
 tempRow = []
