@@ -43,7 +43,3 @@ f.write("\n")
 # files open for writing must be explicitly closed to commit the changes.
 f.close()
 
-#import os
-
-# this will launch Notepad with our file (this only works on Windows)
-#os.system('notepad.exe ' + "csv.txt")

@@ -731,7 +731,7 @@ Implement a program that can read a CSV file that looks like the screenshot abov
 
 ## Task 4
 
-This program will save a dictionary to a txt file. If we change the file extension to ".csv" from ".txt", we can open this file with a spreadsheet program. Notice, how for convenience, we used Python's ability to run other programs and open files in them – we are launching Notepad with the file we created to save us searching for it.
+This program will save a dictionary to a txt file. If we change the file extension to ".csv" from ".txt", we can open this file.
 
 Open [task-04.py](open_file "08-files/task-04.py").
 
@@ -750,6 +750,9 @@ Denis
 13
 True
 ```
+
+[Click Here](open_file "08-files/csv.txt") to open the created file.
+
 
 ---
 title: Implementing queues
