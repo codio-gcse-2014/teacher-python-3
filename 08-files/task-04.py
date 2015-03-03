@@ -32,13 +32,12 @@ for r in index_list:
 
 # every key has a few fields related to it, so we
 # need a nested loop to write multiple fields per key.
-for field in records[r]:
-    print(field)
-
-f.write(str(field)+", ")
+    for field in records[r]:
+      print(field)
+      f.write(str(field)+", ")
 
 #insert a new line character starting a new row
-f.write("\n")
+    f.write("\n")
 
 # files open for writing must be explicitly closed to commit the changes.
 f.close()
