@@ -1,0 +1,178 @@
+{
+ "sections": [
+  {
+   "id": "9e4f3de6-ed61-d0ca-4b81-f208c52b217",
+   "title": "Arrays, Queues and Stacks",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Arrays--Queues-and-Stacks-9e4f.md"
+  },
+  {
+   "id": "e5c881ff-9d2e-5414-8f1f-8337ca9c2a1",
+   "title": "Implementing arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "01-implementing"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Implementing-arrays-e5c8.md"
+  },
+  {
+   "id": "4fbf5081-c4e5-e575-a5b4-9f0cec87ff98",
+   "title": "More useful list operations",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "02-list-operations"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/More-useful-list-operations-4fbf.md"
+  },
+  {
+   "id": "9a8fdcc4-a912-7227-95dd-960fea2c46ad",
+   "title": "Searching and sorting is built in!",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "03-searching"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Searching-and-sorting-is-built-in--9a8f.md"
+  },
+  {
+   "id": "b82c9062-d232-91fc-2acc-f4039c3e5d7",
+   "title": "Nested lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "04-nested-lists"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Nested-lists-b82c.md"
+  },
+  {
+   "id": "861e9327-def4-1291-6c43-3be3ca6145d8",
+   "title": "Applying filters to lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "05-filters"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Applying-filters-to-lists-861e.md"
+  },
+  {
+   "id": "456f3919-bcda-4d24-e3ec-badc7f12657b",
+   "title": "Dictionaries (Associative arrays)",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "06-dictionaries"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Dictionaries--Associative-arrays--456f.md"
+  },
+  {
+   "id": "e547b7aa-1248-5434-bf95-e155224046a1",
+   "title": "Records",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "07-records"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Records-e547.md"
+  },
+  {
+   "id": "456733cf-fa18-a7b2-54f5-a788f4158821",
+   "title": "File reading and writing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "08-files"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/File-reading-and-writing-4567.md"
+  },
+  {
+   "id": "6dba159c-4b54-1ff1-d0c9-63dae9d1c",
+   "title": "Implementing queues",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "09-queues"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Implementing-queues-6dba.md"
+  },
+  {
+   "id": "ecfa1d00-f7b5-6eb2-6c87-4b565bddeec0",
+   "title": "Implementing stacks",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "10-stacks"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Implementing-stacks-ecfa.md"
+  }
+ ]
+}
